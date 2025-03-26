@@ -183,7 +183,7 @@ const TechFest = () => {
     return (
         <div className="min-h-screen bg-gradient-to-r from-blue-200 to-purple-300 text-gray-900">
             <nav className="bg-gradient-to-r from-blue-700 to-purple-700 p-4 text-white text-center font-bold text-xl shadow-md sticky top-0 left-0 z-10 w-full py-0.5 flex justify-between items-center">
-                <img src={logo} alt="MATS University" className="w-22 animate-fade-in" />
+                <img src={mseit} alt="MATS University" className="w-22 animate-fade-in" />
                 <a 
                     href="https://mseit-techfest-2025-participate.netlify.app" 
                     className="bg-purple-600 hover:bg-purple-800 text-white font-bold py-2 px-4 rounded transition-transform transform hover:scale-110" 
