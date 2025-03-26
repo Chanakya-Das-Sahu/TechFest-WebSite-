@@ -22,6 +22,7 @@ import seven from './faculty_images/deshmukh.jpg'
 import s1 from './student_images/chanakya.jpg'
 import s2 from './student_images/chandani.jpeg'
 import s3 from './student_images/amith.jpg'
+import s4 from './student_images/sujit.jpg'
 
 //         Activity Images 
 
@@ -78,7 +79,7 @@ const StudentCoordinators = () => {
         ['Chanakya Das Sahu', s1],
         ['Chandani Sahu', s2],
         ['Amith Raj VR', s3],
-        ['M.Sujitha', ''],
+        ['M.Sujitha', s4],
         ['Ketarth Sawarkar', ''],
         ['Rajinesh Kumar', ''],
         ['Rahul Barik', ''],
