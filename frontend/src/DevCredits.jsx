@@ -24,7 +24,7 @@ const DevCredits = () => {
         
         {/* Main Badge Link */}
         <a
-          href="https://chanakya.labs.netlify.app/"
+          href="https://chanakya-labs.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="
