@@ -43,6 +43,7 @@ import innovation from './activity_images/innovation.jpeg'
 import charades from './activity_images/charades.jpg'
 import rhythm from './activity_images/rythm.jpeg'
 import honours from './activity_images/award.jpg'
+import DevCredits from "./DevCredits";
 
 
 
@@ -75,23 +76,10 @@ const FacultyCoordinators = () => {
 
 const StudentCoordinators = () => {
     const [students, setStudents] = useState([
-        ['Amarjeet Dwivedi', ''],
         ['Chanakya Das Sahu', s1],
         ['Chandani Sahu', s2],
         ['Amith Raj VR', s3],
         ['M.Sujitha', s4],
-        ['Ketarth Sawarkar', ''],
-        ['Rajinesh Kumar', ''],
-        ['Rahul Barik', ''],
-        ['Priyansh Suryavanshi', ''],
-        ['Sahil Singh', ''],
-        ['Swasti Kumari', ''],
-        ['Abhinav Patel', ''],
-        ['Kumari Kshrija', ''],
-        ['Yasmin Chandrakar', ''],
-        ['Rishi Kumar Jena', ''],
-        ['Mugagga Aslam', ''],
-        ['Matilda Malanghane', ''],
     ])
     return (
         <section className="py-6">
@@ -283,13 +271,7 @@ const TechFest = () => {
                     ))}
                 </div>
             </section>
-            <div 
-                className="fixed bottom-0 right-0 bg-gradient-to-r from-blue-600 to-purple-600 text-white p-2 rounded-lg shadow-lg flex items-center gap-2 cursor-pointer hover:scale-110 transition-transform"
-                onClick={() => window.open("https://chanakya-das-sahu.netlify.app", "_blank")}
-            >
-                <img src={s1} alt="Chanakya Das Sahu" className="w-8 h-8 rounded-full border-2 border-white" />
-                <span className="text-sm font-semibold">Chanakya Das Sahu</span>
-            </div>
+          <DevCredits/>
             <footer className="bg-gradient-to-r from-blue-900 to-purple-900 text-white text-center p-4 mt-6 shadow-lg">
                 &copy; 2025 MATS University. All Rights Reserved.
             </footer>
